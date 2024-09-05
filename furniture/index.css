@@ -1,0 +1,67 @@
+/* styles.css */
+.navbar {
+   position: fixed !important; /* Menjaga navbar tetap di posisi atas saat scroll */
+   top: 0 !important; /* Jarak dari atas halaman */
+   left: 0 !important; /* Jarak dari kiri halaman */
+   width: 100% !important; /* Lebar navbar penuh */
+   z-index: 1000 !important; /* Menempatkan navbar di atas elemen lain */
+   background-color: #f8f9fa !important; /* Latar belakang navbar */
+ }
+ 
+ body {
+   padding-top: 56px; /* Sesuaikan dengan tinggi navbar */
+ }
+ 
+ 
+ 
+
+.jumbotron {
+   padding-top: 2rem;
+   background-color: #e2edff;
+}
+
+.container{
+   background-color: #e2edff;
+
+}
+.col {
+   padding-top: 15px;
+}
+
+.card {
+   padding-top: 20px;
+   
+
+}
+
+.row {
+   background-color: #e2edff;
+}
+
+.text {
+   display: flex;
+   justify-content: center;
+}
+
+
+/* styles.css */
+.animated-img {
+   transition: transform 0.5s ease, box-shadow 0.5s ease;
+   transform-origin: top left; /* Menentukan titik asal transformasi */
+ }
+ 
+ /* Efek animasi untuk desktop */
+ .animated-img.animate {
+   transform: scale(1.2) translate(20px, -20px); /* Memperbesar dan menggeser gambar */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+ }
+ 
+ /* Media Query untuk perangkat mobile */
+ @media (max-width: 768px) {
+   .animated-img.animate {
+     transform: scale(1.1) translate(10px, -10px); /* Sesuaikan skala dan geser gambar untuk perangkat mobile */
+   }
+ }
+ 
+
+
